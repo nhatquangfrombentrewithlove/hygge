@@ -1,29 +1,26 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
-   
-}
-section {
-   
 }
 
 .MoDau {
-    background: rgba(244, 247, 251, 1);
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .VeChungToi {
-    background: rgba(244, 247, 251, 1);
+    background: white;
 }
-
-
 
 .BacSi {
-    background: rgba(244, 247, 251, 1);
+    background: white;
+    margin-bottom: 20px
 }
+
 marquee {
     background: linear-gradient(90deg, #27CBC9 0%, #0078BD 118.75%);
     color: white;
@@ -31,10 +28,6 @@ marquee {
     font-family: Roboto;
     font-weight: 500;
     width: 100%;
-}
-
-.buttonDatLich {
-   margin: auto;
 }
 
 .btnDatLich {
@@ -49,33 +42,34 @@ marquee {
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
     display: flex;
     border: none;
+    margin-top: 20px;
 }
 
-    .btnDatLich:hover {
-        background-position: right center;
-    }
-
-
+.btnDatLich:hover {
+    background-position: right center;
+}
 
 .DichVu {
-    margin-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 10px;
 }
 
-.Content1{
-    margin: 10px ;
+.Content1 {
+    margin: 10px;
 }
 
 .cardDichVu {
     width: 280px;
     height: 260px;
-    background: rgba(244, 247, 251, 1);
+    background: white;
     border: 1px solid rgba(204, 204, 204, 1);
 }
 
-    .cardDichVu:hover {
-        background-color: rgba(204, 204, 204, 1);
-        border: 1px solid rgba(255, 255, 255, 1);
-    }
+.cardDichVu:hover {
+    background-color: rgba(204, 204, 204, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
 
 .imgKiemSoatPhienMuon {
     margin-left: auto;
@@ -84,8 +78,7 @@ marquee {
     margin-top: -20px;
 }
 
-.imgKiemSoatGiacNgu 
-{
+.imgKiemSoatGiacNgu {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -108,11 +101,10 @@ marquee {
     margin-bottom: -20px;
 }
 
-
 .buttonTimHieuNgay {
     width: 50%;
     margin: auto;
-    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .btnTimHieu {
@@ -130,28 +122,30 @@ marquee {
     margin: auto;
 }
 
-    .btnTimHieu:hover {
-        background-position: right center;
-    }
+.btnTimHieu:hover {
+    background-position: right center;
+}
+
+.LichHenSapToi {
+    margin: 0px 10px;
+}
 
 .cardLichHen {
     border: 1px solid rgba(204, 204, 204, 1);
     width: 280px;
-    height: 240px;
-    background: rgba(255, 255, 255, 1);
-    margin-bottom: 20px;
+    height: 220px;
+    background: rgba(244, 247, 251, 1);
 }
 
-
 .DichVuTuVan {
-    margin-left: 80px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin: 0px 10px;
 }
 
 .cardTuVan {
     width: 400px;
     height: 180px;
-    background: rgba(244, 247, 251, 1);
+    background: white;
     border: 1px solid rgba(204, 204, 204, 1);
     padding: 10px
 }
@@ -164,7 +158,6 @@ marquee {
     margin-right: auto;
     display: block;
 }
-
 
 .buttonCall {
     width: 50%;
@@ -187,6 +180,6 @@ marquee {
     margin: auto;
 }
 
-    .btnCall:hover {
-        background-position: right center;
-    }
+.btnCall:hover {
+    background-position: right center;
+}
